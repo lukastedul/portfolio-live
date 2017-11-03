@@ -1,0 +1,325 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Luka Štedul</title>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+
+	<!-- stylesheets -->
+	<!--link rel="stylesheet" href="css/style.css"-->
+	<link rel="stylesheet" href="css/w3css.css">
+	<!--link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css"-->
+
+	<!-- fonts -->
+	<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat">
+
+	<!-- icon fonts -->
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+	<link rel="stylesheet" href="https://cdn.linearicons.com/free/1.0.0/icon-font.min.css">
+</head>
+
+<style>
+	body,h1,h2,h3,h4,h5,h6 {
+			font-family: "Montserrat", sans-serif;
+		}
+	.w3-row-padding img {
+			margin-bottom: 12px;
+		}
+	/* Set the width of the sidebar to 120px */
+	.w3-sidebar {
+			width: 120px;
+			background: #f1f1f1;
+		}
+	/* Add a left margin to the "page content" that matches the width of the sidebar (120px) */
+	#main {
+			margin-left: 120px;
+		}
+	/* Remove margins from "page content" on small screens */
+	@media only screen and (max-width: 600px) {
+		#main {
+			margin-left: 0;
+		}
+	}
+
+	/* user styles */
+
+	/* colors */
+	.user-white,.user-hover-white:hover{color:#000!important;background-color:#f1f1f1!important}
+	hr{border-top:1px solid #333;} /* line divider */
+
+</style>
+
+<body class="user-white">
+
+	<!-- Icon Bar (Sidebar - hidden on small screens) -->
+	<nav class="w3-sidebar w3-bar-block w3-small w3-hide-small w3-center">
+
+		<!-- Avatar image in top left corner -->
+		<img class="w3-padding-small" src="img/logoPink.png" style="width:100%">
+
+		<!-- Language Selector 
+		<a href="#language" class="w3-bar-item w3-button w3-padding-small user-white">
+			<p>en/hr</p>
+	  	</a>-->
+
+		<a href="#" class="w3-bar-item w3-button w3-padding-large user-white">
+			<span class="lnr lnr-home w3-xxlarge"></span>
+			<p>Home</p>
+	  	</a>
+
+	  	<a href="#about" class="w3-bar-item w3-button w3-padding-large user-white">
+			<span class="lnr lnr-user w3-xxlarge"></span>
+			<p>About</p>
+	  	</a>
+
+	  	<a href="#work" class="w3-bar-item w3-button w3-padding-large user-white">
+			<span class="lnr lnr-briefcase w3-xxlarge"></span>
+			<p>Projects</p>
+	  	</a>
+
+	  	<a href="#contact" class="w3-bar-item w3-button w3-padding-large user-white">
+			<span class="lnr lnr-inbox w3-xxlarge"></span>
+			<!-- kuverta <span class="lnr lnr-envelope w3-xxlarge"></span> -->
+			<p>Contact</p>
+	  	</a>
+	</nav>
+
+	<!-- Navbar on small screens (Hidden on medium and large screens) -->
+	<div class="w3-top w3-hide-large w3-hide-medium" id="myNavbar">
+	 	<div class="w3-bar user-white w3-opacity w3-hover-opacity-off w3-center w3-small">
+			<a href="#" class="w3-bar-item w3-button" style="width:25% !important">Home</a>
+			<a href="#about" class="w3-bar-item w3-button" style="width:25% !important">About</a>
+			<a href="#work" class="w3-bar-item w3-button" style="width:25% !important">Projects</a>
+			<a href="#contact" class="w3-bar-item w3-button" style="width:25% !important">Contact</a>
+	  	</div>
+	</div>
+
+	<!-- Page Content -->
+	<div class="w3-padding-large" id="main">
+
+		<!-- Header/Home -->
+	  	<header class="w3-container w3-padding-32 w3-center user-white" id="home">
+			<h1 class="w3-jumbo"><!--span class="w3-hide-small">I'm</span-->Luka Štedul</h1>
+			<p>Photographer and Designer.</p>
+			<img src="img/portraitPhotoCompressed.jpg" alt="portrait" class="w3-image" width="992" height="1108">
+	  	</header>
+
+	  	<!-- About Section -->
+	  	<div class="w3-content w3-justify w3-text-grey w3-padding-64" id="about">
+
+			<h2 class="w3-text-grey">About me</h2>
+			<hr style="width:200px" class="w3-opacity">
+			<p>
+				Hi! I’m Luka. Ever since my young years, I've been interested in computers and drawing. Through the years that developed into my interest in graphics design, on the way I picked up photography as a hobby. Continuing to develop those skills, came college and I got interested in web design and programming to complement my existing skills. Today I'm studying Information and Business Systems at Faculty of Organization and Informatics in Varaždin, run small photography studio with a friend and from time to time do some design jobs. I’m currently based in Varaždin, Croatia.
+			</p>
+
+
+			<h3 class="w3-padding-16 w3-text-grey">My Skills</h3>
+
+			<p class="w3-wide">Photography and post processing</p>
+			<div class="w3-gray" style="border-radius:5px;">
+		  		<div class="user-grad-purple" style="height:10px;width:95%;border-radius:5px;"></div>
+			</div>
+
+			<p class="w3-wide">Adobe Photoshop</p>
+			<div class="w3-gray" style="border-radius:5px;">
+		  		<div class="user-grad-pink" style="height:10px;width:85%;border-radius:5px;"></div>
+			</div>
+
+			<p class="w3-wide">Adobe Illustrator</p>
+			<div class="w3-gray" style="border-radius:5px;">
+		  		<div class="user-grad-green" style="height:10px;width:65%;border-radius:5px;"></div>
+			</div>
+
+			<p class="w3-wide">Adobe Expirience Design</p>
+			<div class="w3-gray" style="border-radius:5px;">
+		  		<div class="w3-purple" style="height:10px;width:100;border-radius:5px;%"></div>
+			</div>
+
+			<p class="w3-wide">HTML, CSS</p>
+			<div class="w3-gray" style="border-radius:5px;">
+		  		<div class="w3-indigo" style="height:10px;width:95%;border-radius:5px;"></div>
+			</div>
+
+			<p class="w3-wide">PHP(Laravel), SQL</p>
+			<div class="w3-gray" style="border-radius:5px;">
+		  		<div class="w3-indigo" style="height:10px;width:60%;border-radius:5px;"></div>
+			</div>
+
+			<p class="w3-wide">C# .NET</p>
+			<div class="w3-gray" style="border-radius:5px;">
+		  		<div class="w3-indigo" style="height:10px;width:60%;border-radius:5px;"></div>
+			</div>
+
+			<!--<div class="w3-row w3-center w3-padding-16 w3-section">
+
+		  		<div class="w3-quarter w3-section">
+					<span class="w3-xlarge">11+</span><br>
+					Partners
+		  		</div>	
+
+		  		<div class="w3-quarter w3-section">
+					<span class="w3-xlarge">55+</span><br>
+					Projects Done
+		  		</div>
+
+		  		<div class="w3-quarter w3-section">
+					<span class="w3-xlarge">89+</span><br>
+					Happy Clients
+		  		</div>
+
+		  		<div class="w3-quarter w3-section">
+					<span class="w3-xlarge">150+</span><br>
+					Meetings
+		  		</div>
+			</div>-->
+
+			<a href="/files/cv.pdf" download="CV_Luka_Stedul">
+				<button class="w3-button w3-light-grey w3-padding-large w3-section">
+			  		<i class="fa fa-download"></i> Download CV
+				</button>
+			</a>
+		
+	  	<!-- End About Section -->
+	  	</div>
+
+	  
+	  	<!-- Portfolio Section -->
+	  	<div class="w3-padding-64 w3-content" id="work">
+			<h2 class="w3-text-grey">My Projects</h2>
+			<hr style="width:200px" class="w3-opacity">
+
+			<h3 class="w3-padding-16 w3-text-grey">Web</h3>
+			<!-- Grid for photos -->
+			<div class="w3-row-padding" style="margin:0 -16px">
+
+				<div class="w3-third">
+					<a href="projects/adele.html" style="text-decoration: none;">
+						<h6 class="w3-text-grey">Adele Exarchopolous</h6>
+						<img class="w3-hover-opacity" src="img/thumbnails/adele.jpg" style="width:100%">
+					</a>
+				</div>
+				<div class="w3-third">
+					<a href="projects/shotgun.html" style="text-decoration: none;">
+						<h6 class="w3-text-grey">Shotgun!</h6>
+						<img class="w3-hover-opacity" src="img/thumbnails/shotgun.jpg" style="width:100%">
+					</a>
+				</div>
+
+			<!-- End photo grid -->
+			</div><br><br>
+
+
+			<h3 class="w3-padding-16 w3-text-grey">Graphic design</h3>
+			<!-- Grid for photos -->
+			<div class="w3-row-padding" style="margin:0 -16px">
+
+				<div class="w3-third">
+					<a href="projects/aquatika.html" style="text-decoration: none;">
+						<h6 class="w3-text-grey">Aquatika</h6>
+						<img class="w3-hover-opacity" src="img/thumbnails/aquatika.jpg" style="width:100%">
+					</a>
+				</div>
+				<div class="w3-third">
+					<a href="projects/planner.html" style="text-decoration: none;">
+						<h6 class="w3-text-grey">Hangout planner</h6>
+						<img class="w3-hover-opacity" src="img/thumbnails/planner.jpg" style="width:100%">
+					</a>
+				</div>
+				<div class="w3-third">
+					<a href="projects/pare.html" style="text-decoration: none;">
+						<h6 class="w3-text-grey">Pare?</h6>
+						<img class="w3-hover-opacity" src="img/thumbnails/pare.jpg" style="width:100%">
+					</a>
+				</div>
+				<div class="w3-third">
+					<a href="projects/kruz.html" style="text-decoration: none;">
+						<h6 class="w3-text-grey">KRUZ</h6>
+						<img class="w3-hover-opacity" src="img/thumbnails/kruz.jpg" style="width:100%">
+					</a>
+				</div>
+				<div class="w3-third">
+					<a href="projects/knezicStedulPhotography.html" style="text-decoration: none;">
+						<h6 class="w3-text-grey">Knežić Štedul</h6>
+						<img class="w3-hover-opacity" src="img/thumbnails/knezicStedulPhotography.jpg" style="width:100%">
+					</a>
+				</div>
+				<div class="w3-third">
+					<a href="projects/infoDaska.html" style="text-decoration: none;">
+						<h6 class="w3-text-grey">InfoDASKA</h6>
+						<img class="w3-hover-opacity" src="img/thumbnails/infoDaska.jpg" style="width:100%">
+					</a>
+				</div>
+				<div class="w3-third">
+					<a href="projects/myFin.html" style="text-decoration: none;">
+						<h6 class="w3-text-grey">MyFin</h6>
+						<img class="w3-hover-opacity" src="img/thumbnails/myFin.jpg" style="width:100%">
+					</a>
+				</div>
+				<div class="w3-third">
+					<a href="projects/mrHydden.html" style="text-decoration: none;">
+						<h6 class="w3-text-grey">Mr. Hydden</h6>
+						<img class="w3-hover-opacity" src="img/thumbnails/mrHydden.jpg" style="width:100%">
+					</a>
+				</div>
+				<div class="w3-third">
+					<a href="projects/cimaNautica.html" style="text-decoration: none;">
+						<h6 class="w3-text-grey">Cima Nautica</h6>
+						<img class="w3-hover-opacity" src="img/thumbnails/cimaNautica.jpg" style="width:100%">
+					</a>
+				</div>
+
+			<!-- End photo grid -->
+			</div>
+
+	  	<!-- End Portfolio Section -->
+	  	</div>
+
+	  	<!-- Contact Section -->
+	  	<div class="w3-padding-64 w3-content w3-text-grey" id="contact">
+			<h2 class="w3-text-grey">Contact Me</h2>
+			<hr style="width:200px" class="w3-opacity">
+
+			<div class="w3-section">
+				<p><span class="lnr lnr-map-marker w3-text-grey w3-xxlarge w3-margin-right"></span> Varaždin, Croatia</p>
+				<p><span class="lnr lnr-phone-handset w3-text-grey w3-xxlarge w3-margin-right"></span> +385 97 711 9038</p>
+				<p><span class="lnr lnr-envelope w3-text-grey w3-xxlarge w3-margin-right"></span> lux300@gmail.com</p>
+
+				<!--dolje staro
+		  		<p><i class="fa fa-map-marker fa-fw w3-text-white w3-xxlarge w3-margin-right"></i> Chicago, US</p>
+		  		<p><i class="fa fa-phone fa-fw w3-text-white w3-xxlarge w3-margin-right"></i> Phone: +00 151515</p>
+		  		<p><i class="fa fa-envelope fa-fw w3-text-white w3-xxlarge w3-margin-right"> </i> Email: mail@mail.com</p>
+		  		-->
+			</div>
+
+			<!--<form method="post" name="contact_form" action="contact_form_handler.php">
+		  		<p><input class="w3-input w3-padding-16" type="text" placeholder="Name" required name="Name"></p>
+		  		<p><input class="w3-input w3-padding-16" type="text" placeholder="Email" required name="Email"></p>
+		  		<p><input class="w3-input w3-padding-16" type="text" placeholder="Message" required name="Message"></p>
+		  		<p class="w3-right-align">
+					<button class="w3-button w3-light-grey w3-padding-large" type="submit">
+			  			<i class="fa fa-paper-plane"></i> Send Message
+					</button>
+		  		</p>
+			</form>-->
+
+
+	  	<!-- End Contact Section -->
+	  	</div>
+	  
+		<!-- Footer -->
+	  	<footer class="w3-content w3-padding-64 w3-text-grey w3-xlarge">
+	  		<a href="https://www.facebook.com/luka.stedul"><i class="fa fa-facebook w3-hover-opacity w3-padding-small"></i></a>
+	  		<a href="https://instagram.com/stechh"><i class="fa fa-instagram w3-hover-opacity w3-padding-small"></i></a>
+	  		<a href="https://pinterest.com/lukastedul"><i class="fa fa-pinterest-p w3-hover-opacity w3-padding-small"></i></a>
+	  		<a href="http://lukastedul.tumblr.com/"><i class="fa fa-tumblr w3-hover-opacity w3-padding-small"></i></a>
+	  		<a href="https://github.com/lukastedul"><i class="fa fa-github w3-hover-opacity w3-padding-small"></i></a>
+			<p class="w3-medium">Luka Štedul ©</p>
+	  	<!-- End footer -->
+	  	</footer>
+
+	<!-- END PAGE CONTENT -->
+	</div>
+
+</body>
+</html>

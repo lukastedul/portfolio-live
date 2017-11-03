@@ -1,0 +1,28 @@
+projects:
+	graphic design:
+		logofolio:
+			personal logo
+			cima nautica
+			infoDASKA
+			scanBiz
+			pcelarstvo
+		myfin: logo,vizualni identitet, katalog
+		kruz: logo, vizualni identitet, vizitke
+		mr. hydden cover photo
+		knezic-stedul: logo, plakat, cover photo
+	UI design:
+		kruz app
+		kruv app
+		disupare app
+	web design:
+		Adele Exarchopolous
+		Shotgun
+	photography:
+		portraits:
+			matea
+		nature and landscapes:
+			duga resa: magla, mlin, long exposure
+			srna
+		music project
+
+

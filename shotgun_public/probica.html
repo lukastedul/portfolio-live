@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>probica</title>
+</head>
+<style>
+.wrap{
+	width: 100%;
+}
+.skew{
+	position: relative;
+	height: 300px;
+	width: 100%;
+	transform: skew(0deg,352.5deg);
+}
+#top{
+	background-color: blue;
+	top: -300px;
+}
+#bottom{
+	background-color: lightblue;
+}
+.space{
+	height: 700px;
+}
+</style>
+<body>
+	<div class="wrap">
+		<div class="skew" id="top"></div>
+		<div class="space"></div>
+		<div class="skew" id="bottom"></div>
+	</div>
+</body>
+</html>

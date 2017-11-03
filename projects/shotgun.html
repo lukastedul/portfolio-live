@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Shotgun! - Luka Štedul</title>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+
+	<!-- stylesheets -->
+	<!--link rel="stylesheet" href="css/style.css"-->
+	<link rel="stylesheet" href="../css/w3css.css">
+	<!--link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css"-->
+
+	<!-- fonts -->
+	<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat">
+
+	<!-- icon fonts -->
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+	<link rel="stylesheet" href="https://cdn.linearicons.com/free/1.0.0/icon-font.min.css">
+</head>
+
+<style>
+	body,h1,h2,h3,h4,h5,h6 {
+			font-family: "Montserrat", sans-serif;
+		}
+	.w3-row-padding img {
+			margin-bottom: 12px;
+		}
+	/* Set the width of the sidebar to 120px */
+	.w3-sidebar {
+			width: 120px;
+			background: #f1f1f1;
+		}
+	/* Add a left margin to the "page content" that matches the width of the sidebar (120px) */
+	#main {
+			margin-left: 120px;
+		}
+	/* Remove margins from "page content" on small screens */
+	@media only screen and (max-width: 600px) {
+		#main {
+			margin-left: 0;
+		}
+	}
+
+	/* user styles */
+
+	/* colors */
+	.user-white,.user-hover-white:hover{color:#000!important;background-color:#f1f1f1!important}
+	hr{border-top:1px solid #333;} /* line divider */
+
+</style>
+
+<body class="user-white">
+
+	<!-- Icon Bar (Sidebar - hidden on small screens) -->
+	<nav class="w3-sidebar w3-bar-block w3-small w3-hide-small w3-center">
+
+		<!-- Avatar image in top left corner -->
+		<img class="w3-padding-small" src="../img/logoPink.png" style="width:100%">
+
+		<!-- Language Selector 
+		<a href="#language" class="w3-bar-item w3-button w3-padding-small user-white">
+			<p>en/hr</p>
+	  	</a>-->
+
+		<a href="../index.html#" class="w3-bar-item w3-button w3-padding-large user-white">
+			<span class="lnr lnr-home w3-xxlarge"></span>
+			<p>Home</p>
+	  	</a>
+
+	  	<a href="../index.html#about" class="w3-bar-item w3-button w3-padding-large user-white">
+			<span class="lnr lnr-user w3-xxlarge"></span>
+			<p>About</p>
+	  	</a>
+
+	  	<a href="../index.html#work" class="w3-bar-item w3-button w3-padding-large user-white">
+			<span class="lnr lnr-briefcase w3-xxlarge"></span>
+			<p>Projects</p>
+	  	</a>
+
+	  	<a href="../index.html#contact" class="w3-bar-item w3-button w3-padding-large user-white">
+			<span class="lnr lnr-inbox w3-xxlarge"></span>
+			<!-- kuverta <span class="lnr lnr-envelope w3-xxlarge"></span> -->
+			<p>Contact</p>
+	  	</a>
+	</nav>
+
+	<!-- Navbar on small screens (Hidden on medium and large screens) -->
+	<div class="w3-top w3-hide-large w3-hide-medium" id="myNavbar">
+	 	<div class="w3-bar user-white w3-opacity w3-hover-opacity-off w3-center w3-small">
+			<a href="../index.html#" class="w3-bar-item w3-button" style="width:25% !important">Home</a>
+			<a href="../index.html#about" class="w3-bar-item w3-button" style="width:25% !important">About</a>
+			<a href="../index.html#work" class="w3-bar-item w3-button" style="width:25% !important">Projects</a>
+			<a href="../index.html#contact" class="w3-bar-item w3-button" style="width:25% !important">Contact</a>
+	  	</div>
+	</div>
+
+	<!-- Page Content -->
+	<div class="w3-padding-large" id="main">
+
+	  	<div class="w3-content w3-justify w3-text-grey w3-padding-32">
+
+	  		<p class="w3-left-align">
+				<a class="w3-button w3-light-grey" href="../index.html#work">
+					<i class="fa fa-arrow-left"></i> Back to all projects
+				</a>
+		  	</p>
+
+		  	<!-- Project Section -->
+		  	<div class="w3-margin-left">
+				<h2 class="w3-text-grey">Shotgun!</h2><br>
+
+				<a class="w3-button w3-light-grey" href="../shotgun_public/index.html" target="_blank">
+					<i class="fa fa-globe"></i> Check out live version here!
+				</a>
+				<br><br>
+
+				<!-- Project Images -->
+				<div class="w3-row-padding" style="margin:0 -16px">
+					<div class="w3-col">
+						<img class="w3-hover-opacity" src="../img/shotgun/home.jpg" style="width:100%; max-width:500px">
+					</div>
+					<div class="w3-col">
+						<img class="w3-hover-opacity" src="../img/shotgun/result1.jpg" style="width:100%; max-width:500px">
+					</div>
+					<div class="w3-col">
+						<img class="w3-hover-opacity" src="../img/shotgun/result2.jpg" style="width:100%; max-width:500px">
+					</div>
+				<!-- End Project Images-->
+				</div>
+
+				<hr style="width:200px" class="w3-opacity">
+
+				<p>
+					Who should take the front seat?<br><br>
+					Personal project, work in progress<br><br>
+					2016
+				</p>
+
+				
+			<!-- End Project Section -->
+			</div>
+		</div>
+	  
+		<!-- Footer -->
+	  	<footer class="w3-content w3-padding-64 w3-text-grey w3-xlarge">
+	  		<a href="https://www.facebook.com/luka.stedul"><i class="fa fa-facebook w3-hover-opacity w3-padding-small"></i></a>
+	  		<a href="https://instagram.com/stechh"><i class="fa fa-instagram w3-hover-opacity w3-padding-small"></i></a>
+	  		<a href="https://pinterest.com/lukastedul"><i class="fa fa-pinterest-p w3-hover-opacity w3-padding-small"></i></a>
+	  		<a href="http://lukastedul.tumblr.com/"><i class="fa fa-tumblr w3-hover-opacity w3-padding-small"></i></a>
+	  		<a href="https://github.com/lukastedul"><i class="fa fa-github w3-hover-opacity w3-padding-small"></i></a>
+			<p class="w3-medium">Luka Štedul ©</p>
+	  	<!-- End footer -->
+	  	</footer>
+
+	<!-- END PAGE CONTENT -->
+	</div>
+
+</body>
+</html>

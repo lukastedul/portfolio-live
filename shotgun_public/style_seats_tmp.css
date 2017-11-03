@@ -1,0 +1,95 @@
+body{
+	margin:0;
+	/*background-color: #00673c;
+	min-width: 320px;*/
+}
+.space_s{height: 15px;}
+.space_m{height: 30px;}
+.space_l{height: 60px;}
+
+.wrap{
+	width: 100%;
+	margin: auto;
+	background-color: #00673c;
+}
+
+.seat{
+	width: 135px;
+	padding-top: 45px;
+	padding-bottom: 45px;
+	background-color: #005335;
+
+	font-family: 'Roboto Slab', serif;
+	font-style: bold;
+	font-size: 24pt;
+	text-align: center;
+	color: white;
+
+	border-radius: 5px;
+	border-style: solid;
+	border-color: #005335;
+	border-width: 5px;
+}
+#driver_seat{
+	background-color: #00673c;
+}
+#shotgun_seat{
+	background-color: #ff4b27;
+	border-color: #ff4b27;
+}
+
+table{
+	margin: auto;
+	max-width: 320px;
+	/*background-color: pink;*/
+	border-color: 1px solid white;
+}
+td{
+	width: 150px;
+	text-align: center;
+	padding: 5px;
+}
+
+/* SHOTGUN_ONLY STYLE */
+
+.wrap2_vanjski{
+	background-color: green;
+}
+
+.wrap2{
+	background-color: #ff4b27;
+	width: 100%;
+	padding-top: 60px;
+	padding-bottom: 60px;
+
+	position: fixed;
+	top: 40%;
+	margin-top: -100px;
+
+	-ms-transform: skew(0deg,-7.5deg); /* IE 9 */
+    -webkit-transform: skew(0deg,-7.5deg); /* Chrome, Safari, Opera */
+    transform: skew(0deg,-7.5deg);
+
+    text-align: center;
+    color: white;
+    font-family: 'Roboto Slab', serif;
+    font-weight: 700;
+    font-size: 50pt;
+}
+
+.shotgun{
+	position: fixed;
+	top: 70%;
+	margin-top: -100px;
+	width: 100%;
+
+	text-align: center;
+    color: #ff4b27;
+    font-family: 'Roboto Slab', serif;
+    font-weight: 700;
+    font-size: 24pt;
+
+    -ms-transform: rotate(-7.5deg); /* IE 9 */
+    -webkit-transform: rotate(-7.5deg); /* Chrome, Safari, Opera */
+    transform: rotate(-7.5deg);
+}	

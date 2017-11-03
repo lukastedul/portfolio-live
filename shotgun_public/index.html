@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>SHOTGUN!</title>
+	<meta charset="utf-8" />
+
+	<!-- FONTS -->
+	<link href='https://fonts.googleapis.com/css?family=Roboto+Slab:300' rel='stylesheet' type='text/css'>
+	<link href='https://fonts.googleapis.com/css?family=Arimo' rel='stylesheet' type='text/css'>
+
+	<!-- VIEWPORT -->
+	<meta name="viewport" content="width=device-width", initial-scale=1>
+
+	<!-- CSS -->
+	<link href="normalize.css" rel="stylesheet">
+	<link href="style_index.css" rel="stylesheet">
+
+	<!-- JQUERY -->
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
+
+</head>
+
+
+
+<body>
+
+<div class="wrap">
+
+	<div id="top_wrap">
+		<div class="straight_element"></div>
+		<div class="skew_element"></div>
+		<img id="logo" src="logo.svg">
+	</div>
+	
+	<!--<div class="info_wrap">
+		<div id="info_icon">i</div>
+		<span id="info_text"><br>Enter passengers in the given fields below.<br><br>You can add or remove fields with +/- buttons.<br><br>When you are done, submit by clicking one of the GO buttons!<br><br></span>
+		<input name="info_close" id="info_close" type="button" name="close" value="close">
+	</div>
+	<div class="space_s"></div>-->
+
+	<form name="forma" method="post" action="seats.php" onsubmit="return validateForm()">
+
+		<div class="inputs_wrap">
+			<input type="input" name="driver[]" id="driver" class="shapes" placeholder="driver">
+			<div class="space_s"></div>
+
+			<div class="inputs">
+				<span>
+					<input class="shapes" type="text" name="putnik[]" placeholder="passenger">
+					<div class="space_s"></div>
+				</span>
+				<span>
+					<input class="shapes" type="text" name="putnik[]" placeholder="passenger">
+					<div class="space_s"></div>
+				</span>
+				<span>
+					<input class="shapes" type="text" name="putnik[]" placeholder="passenger">
+					<div class="space_s"></div>
+				</span>
+				<span>
+					<input class="shapes" type="text" name="putnik[]" placeholder="passenger">
+					<div class="space_s"></div>
+				</span>
+			</div>
+
+			<script>
+				$(document).ready(function(){
+		    		$("#add").click(function(){
+		        		$(".inputs").append('<span><input class="shapes" type="text" name="putnik[]" placeholder="passenger"> <div class="space_s"></div></span>');
+		    		});
+		    		$("#remove").click(function(){
+		        			$(".inputs span:last-child").remove();
+		    		});
+		    		/*$("#info_close").click(function(){
+		        			$(".info_wrap").remove();
+		    		}); OVO NE RADI, VJEROJATNO PREKO DRUGE FUNKCIJE TREBA NAPRAVIT*/
+				});
+			</script>
+
+			<div class="inputs2">
+				<input id="add" class="shapes" type="button" name="add" value="+">
+				<div class="space_s"></div>
+				<input id="remove" type="button" name="remove" value="-">
+			</div>
+		</div>
+
+		
+
+		<div class="bottom_wrap">
+			<div class="button_wrap">
+				<div class="col50">
+					<input type="submit" class="putac" name="putac1" value="GO+">
+					<div class="space_opis_puca"></div>
+					<span class="opis_puca">Full seating arangment</span>
+				</div>
+				<div class="col50">
+					<input type="submit" class="putac" id="drugi" name="putac2" value="GO!">
+					<div class="space_opis_puca"></div>
+					<span class="opis_puca">Shotgun only</span>
+				</div>
+			</div>
+			<!--<div class="footer">
+				Luka Štedul © 2016. All rights reserved.
+			</div>-->
+		</div>
+
+		<div class="footer">
+			<br>Luka Štedul © 2016. All rights reserved.
+		</div>
+	</form>
+
+</div>
+
+</body>
+
+
+
+
+<!--
+<div class="bottom_wrap">
+			<div class="skew_element"></div>
+			<div class="straight_element">
+				<div class="button_wrap">
+					<input class="buttonl" type="submit" name="prvi_putac">
+					<div class="space_s">
+					<input class="buttonr" type="submit" name="drugi_putac">
+				</div>
+	</form>
+				<div class="text_wrap">
+					<div id="left_text" class="text_bottom">Odaberi ako želiš pozicije svih osoba u autu</div>
+					<div id="right_text" class="text_bottom">Odaberi ako samo želiš znati tko je SHOTGUN</div>
+				</div>
+				<div class="footer">
+					Luka Štedul © 2016. All rights reserved.
+				</div>
+			</div>
+		</div>
+-->
